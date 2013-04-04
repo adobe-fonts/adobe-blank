@@ -27,9 +27,11 @@ Building the font
 
 Key to building OTF or TTF fonts is *makeotf*, which is part of AFDKO. Information and usage instructions can be found by executing *makeotf -h*.
 
-In this repository, all necessary files are in place for building the OpenType font. For example, build a binary OTF font for the Regular style like this, which also includes a post-process for inserting a "stub" 'DSIG' table:
+In this repository, all necessary files are in place for building the OpenType font. For example, build a binary OTF font for the Regular style like this, which also includes post-processes for inserting a "stub" 'DSIG' table, removing the 'VORG', 'vhea', and 'vmtx' tables, and recalculating the 'sfnt' checksum:
 
     % makeotf -f cidfont.ps -r -ch UnicodeAll-UTF32-H
     % sfntedit -a DSIG=DSIG.bin AdobeBlank.otf
+    % sfntedit -d VORG,vhea,vmtx AdobeBlank.otf
+    % sfntedit -f AdobeBlank.otf
 
 That is all.
