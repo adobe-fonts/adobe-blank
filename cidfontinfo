@@ -1,20 +1,20 @@
-FontName       (AdobeBlank)
-FullName       (Adobe Blank)
-FamilyName     (Adobe Blank)
-Weight         (Regular)
-version        (1.003)
-Registry       (Adobe)
-Ordering       (Identity)
-Supplement     0
-AdobeCopyright (Copyright 2013 Adobe Systems Incorporated. All Rights Reserved.)
-Trademark      ()
-FSType         0
-isFixedPitch   true
-Serif          false
-IsBoldStyle    false
-IsItalicStyle  false
-PreferOS/2TypoMetrics       true
-IsOS/2WidthWeigthSlopeOnly  true
-IsOS/2OBLIQUE               false
-UseOldNameID4               false
-LicenseCode                 ADOBE
+FontName                   (AdobeBlank)
+FullName                   (Adobe Blank)
+FamilyName                 (Adobe Blank)
+Weight                     (Regular)
+version                    (1.045)
+Registry                   (Adobe)
+Ordering                   (Identity)
+Supplement                 0
+AdobeCopyright             (Copyright 2013, 2015 Adobe Systems Incorporated (http://www.adobe.com/).)
+Trademark                  ()
+FSType                     0
+isFixedPitch               true
+Serif                      false
+IsBoldStyle                false
+IsItalicStyle              false
+PreferOS/2TypoMetrics      false
+IsOS/2WidthWeigthSlopeOnly false
+IsOS/2OBLIQUE              false
+UseOldNameID4              false
+LicenseCode                ADOBE
