@@ -1,21 +1,18 @@
 # Command lines for building Adobe Blank
 #
-# Version 2015-04-09
+# Version 2016-05-20
 #
 # The following AFDKO "makeotf" command line builds the OpenType/CFF
 # font:
 
-makeotf -f cidfont.ps -ff features -fi cidfontinfo -mf FontMenuNameDB -r -stubCmap4 -ch UnicodeAll-UTF32-H
-
-# Note that the "-stubCmap4" command-line option was just added to the
-# "makeotf" tool, and will be available in the next release of AFDKO.
+makeotf -f cidfont.ps -omitMacNames -ff features -fi cidfontinfo -mf FontMenuNameDB -r -stubCmap4 -ch UnicodeAll-UTF32-H
 
 # Note that the 'VORG', 'vhea', and 'vmtx' table can be safely purged,
 # and to add the "stub" 'DSIG' table to the OpenType/CFF font, the
 # following AFDKO command lines are used:
 
 sfntedit -d VORG,vhea,vmtx AdobeBlank.otf
-sfntedit -a DSIG=../DSIG.bin AdobeBlank.otf
+sfntedit -a DSIG=DSIG.bin AdobeBlank.otf
 sfntedit -f AdobeBlank.otf
 
 # EOF
