@@ -24,4 +24,4 @@ In this repository, all necessary files are in place for building the OpenType/C
 
 ## Getting Involved
 
-Send suggestions for changes to the Adobe Blank project maintainer, [Dr. Ken Lunde](mailto:lunde@adobe.com?subject=[GitHub] Adobe Blank), for consideration.
+Send suggestions for changes to the Adobe Blank project maintainer, [Dr. Ken Lunde](mailto:lunde@adobe.com?subject=[GitHub]%20Adobe%20Blank), for consideration.
